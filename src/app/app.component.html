@@ -1,0 +1,8 @@
+<div class="container">
+  <mat-card>
+    <button mat-raised-button color="primary" class="surgeButton" (click)="getRandomSurge()">Wild Magic</button>
+    <div class="results" *ngIf="clicked == true">
+      {{surge.name}}
+    </div>
+  </mat-card>
+</div>
