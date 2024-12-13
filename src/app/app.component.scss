@@ -1,0 +1,30 @@
+.mat-mdc-card {
+  margin: 25px auto;
+  text-align: center;
+  background: coral;
+  width: auto;
+  height: 200px;
+}
+
+.surgeButton {
+  font-size: xx-large;
+  width: auto;
+  height: 50px;
+  margin: 25px auto
+}
+
+.results {
+  margin: 25px;
+}
+
+.help {
+  margin: 12px 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 100px);
+  text-align: center;
+  vertical-align: middle;
+}
